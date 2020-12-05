@@ -14,7 +14,7 @@ const LoginComponent = (props) => {
 
     setIsLoading(true);
     setIsError(false);
-    let url = "http://localhost:3500/test/login";
+    let url = "http://localhost:3000/test/login";
     fetch(url, {
       method: "POST",
       body: JSON.stringify({
