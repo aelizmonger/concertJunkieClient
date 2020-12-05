@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Button, Form, FormGroup, Input, Label } from "reactstrap";
 import { Link } from "react-router-dom";
+import "../CSS/loginRegister.css";
 
 import APIURL from '../../helpers/environment'
-
 
 const RegisterComponent = (props) => {
   const [username, setUsername] = useState("");

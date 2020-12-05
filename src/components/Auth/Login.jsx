@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import { Link } from "react-router-dom";
+import "../CSS/loginResister.css";
 
 
 const LoginComponent = (props) => {
@@ -58,7 +59,7 @@ const LoginComponent = (props) => {
             color: "white",
           }}
         >
-          Loading...
+          Let's Rock and Roll!
         </h1>
       </div>
       <Form className="auth-form" onSubmit={handleSubmit}>
